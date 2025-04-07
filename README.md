@@ -1,6 +1,6 @@
 # 📦 E-commerce de Locação - MVP
 
-Este é um MVP de um sistema de e-commerce voltado para **locação de produtos**, desenvolvido como parte de um teste técnico.
+Este é um MVP de um sistema de e-commerce voltado para **locação de produtos**
 
 O repositório está dividido em duas pastas principais:
 
@@ -74,7 +74,3 @@ Use o seguinte usuário para autenticar:
 
 - O projeto está preparado para rodar inteiramente em ambiente local.
 - O banco de dados é populado automaticamente com alguns produtos via seeds.
-
-## 📩 Contato
-
-Em caso de dúvidas ou sugestões, entre em contato pelo GitHub ou e-mail.
