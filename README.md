@@ -26,7 +26,7 @@ npx knex seed:run
 npm run dev
 ```
 
-A API será iniciada em `http://localhost:3333`
+A API será iniciada em `http://localhost:3000`
 
 ### 3. Instale e rode o frontend
 
