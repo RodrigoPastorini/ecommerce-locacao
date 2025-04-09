@@ -10,7 +10,6 @@ function Login() {
 
   const handleLogin = async (e) => {
     e.preventDefault();
-
     try {
       const response = await api.post("/api/auth/login", {
         email,
@@ -20,15 +19,14 @@ function Login() {
       localStorage.setItem("token", response.data.token);
       navigate("/products");
     } catch (error) {
-      alert("Credenciais inválidas. Tente novamente.");
-      console.error("Erro no login", error);
+      alert("Login inválido. Verifique suas credenciais.");
     }
   };
 
   return (
     <div className="login-container">
-      <h2>Login</h2>
-      <form onSubmit={handleLogin} className="login-form">
+      <form className="login-card" onSubmit={handleLogin}>
+        <h2>Login</h2>
         <input
           type="email"
           placeholder="E-mail"
